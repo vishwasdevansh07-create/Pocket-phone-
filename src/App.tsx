@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { GameEngine } from './game/engine/GameEngine';
 import { SaveManager, INITIAL_PLAYER_STATS } from './game/save/SaveManager';
 import { SaveData } from './types/game';
@@ -159,6 +160,7 @@ export default function App() {
 
   return (
     <main className="relative w-screen h-screen overflow-hidden bg-[#070b12] text-slate-100 select-none">
+      <Analytics />
       {/* Canvas Viewport (Always present for smooth hardware rendering) */}
       <canvas
         ref={canvasRef}
