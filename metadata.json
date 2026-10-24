@@ -1,0 +1,6 @@
+{
+  "name": "The World That Moves",
+  "description": "A cinematic 2D/2.5D open-world exploration adventure where the living fantasy world shifts, transforms, and moves over time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
